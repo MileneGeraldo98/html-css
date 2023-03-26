@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in - polegada, px, pc
+
+            Medidas Relativas
+            em, ex, rem, vw,vh, %
+            */
+
+            font-size: 1em ;
+            font-weight: 100;
+
+            /* lighter, normal, bold, bolder*/
+        }
+
+        h1{
+            /* shorthand font
+            - font-style -> font-wieght -> font-size -> font-family 
+
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            font: italic bolder 3em 'sans-serif';
+        }
+
+        h2{
+            font: bold 2em 'sans-serif'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio illo tempore qui nihil, eum reprehenderit dignissimos eveniet nesciunt dicta excepturi magni possimus aliquid quaerat necessitatibus dolore, fugit, numquam sit amet.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus adipisci exercitationem, enim distinctio porro ea error vero corporis alias sed tempore tempora earum et ad pariatur quaerat cupiditate molestias.
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aperiam mollitia enim eveniet laborum atque ipsam dignissimos quod molestiae ea corrupti officiis animi porro ad, incidunt iure adipisci amet error!</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit porro ipsam perferendis id tenetur, ullam voluptatem repellendus illo voluptates explicabo obcaecati adipisci eos ducimus impedit asperiores quaerat optio, nesciunt doloribus?</p>
+    </p>
+</body>
+</html>
