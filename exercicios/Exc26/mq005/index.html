@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span  id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde quod iure ducimus consectetur quidem amet? Aspernatur optio ab itaque, veniam, corporis totam doloribus explicabo odit aut, odio cumque? Delectus, saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla deserunt neque non ea nemo dolorum? Voluptatem incidunt eligendi itaque dolorem! Ipsum nihil mollitia voluptatum voluptatibus beatae blanditiis ipsam itaque maxime?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab quia cum repellendus culpa deleniti, sed dolores impedit ratione error itaque nihil voluptatem unde laboriosam vero quae quas doloribus Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fugit quisquam iure? Fuga quibusdam unde iusto officiis nemo distinctio, necessitatibus excepturi suscipit? Alias asperiores totam quasi perspiciatis! Impedit, a quis.</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, corrupti a earum debitis error quaerat! Aspernatur est magni illum laboriosam tempora! Iure, aliquid officia. Accusantium nobis eius est qui distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veniam in, molestias cumque, blanditiis molestiae consequuntur doloribus quia, fuga ratione quis esse non odit earum quam dicta excepturi incidunt. Atque.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+                }
+        }
+    </script>
+</body>
+</html>
